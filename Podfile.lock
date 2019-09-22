@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CBPinEntryView (1.7.1)
+  - GSKStretchyHeaderView (1.0.4)
+  - IHProgressHUD (0.1.4)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - SCPageControl (0.4.0)
+
+DEPENDENCIES:
+  - CBPinEntryView
+  - GSKStretchyHeaderView
+  - IHProgressHUD
+  - Moya (~> 13.0)
+  - SCPageControl
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CBPinEntryView
+    - GSKStretchyHeaderView
+    - IHProgressHUD
+    - Moya
+    - Result
+    - SCPageControl
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CBPinEntryView: 5a91ba422bd8a38eea587511c92c89b19be78454
+  GSKStretchyHeaderView: 9743704c12bdc9cf7c7947bad3af8bf24f7061e3
+  IHProgressHUD: a01846bfbb581c761c79747c67b08387c3bdfae3
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SCPageControl: 8a8dfbba7d7d8c66487a317cb4c4578a7e4af27a
+
+PODFILE CHECKSUM: cc18efc0a4a81a74470dc72a634bff285fbd3052
+
+COCOAPODS: 1.7.4
