@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cfw-3L-QEg" customClass="GSKStretchyHeaderContentView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="292"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="road" translatesAutoresizingMaskIntoConstraints="NO" id="evV-f8-2N4">
+                    <rect key="frame" x="211" y="100" width="203" height="192"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="203" id="CX3-5a-Ll2"/>
+                        <constraint firstAttribute="height" constant="192" id="pLi-BX-OgX"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="r71-ZL-dzD">
+                    <rect key="frame" x="28" y="84" width="212" height="99"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Now!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RR-gQ-YhQ">
+                            <rect key="frame" x="0.0" y="0.0" width="212" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="212" id="ewr-A3-3mo"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="40"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="dka-ST-swq">
+                            <rect key="frame" x="0.0" y="56" width="212" height="43"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get anything from anywhere," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnW-BP-wxR">
+                                    <rect key="frame" x="0.0" y="0.0" width="212" height="19.5"/>
+                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Easier than ever..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W4-09-edF">
+                                    <rect key="frame" x="0.0" y="23.5" width="212" height="19.5"/>
+                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuT-Wi-RGR">
+                    <rect key="frame" x="304" y="222" width="100" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="mqj-9m-NZs"/>
+                        <constraint firstAttribute="width" constant="100" id="vSg-bK-MAS"/>
+                    </constraints>
+                    <state key="normal" image="Address Book"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qr7-bd-2ei">
+                    <rect key="frame" x="76" y="207" width="170" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Lgm-ce-C47"/>
+                        <constraint firstAttribute="width" constant="170" id="aoN-j5-Vnx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
+                    <state key="normal" title="Make an Order">
+                        <color key="titleColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.69803921570000005" green="0.14117647059999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="r71-ZL-dzD" firstAttribute="top" secondItem="xZC-iW-KPQ" secondAttribute="top" constant="40" id="WMG-7K-6cn"/>
+                <constraint firstItem="qr7-bd-2ei" firstAttribute="leading" secondItem="xZC-iW-KPQ" secondAttribute="leading" constant="76" id="Xf6-9m-vmp"/>
+                <constraint firstAttribute="bottom" secondItem="LuT-Wi-RGR" secondAttribute="bottom" constant="12" id="Ya8-Ue-K9F"/>
+                <constraint firstItem="r71-ZL-dzD" firstAttribute="leading" secondItem="xZC-iW-KPQ" secondAttribute="leading" constant="28" id="atQ-NO-iEK"/>
+                <constraint firstAttribute="bottom" secondItem="qr7-bd-2ei" secondAttribute="bottom" constant="35" id="djC-k6-K95"/>
+                <constraint firstItem="evV-f8-2N4" firstAttribute="trailing" secondItem="xZC-iW-KPQ" secondAttribute="trailing" id="k0K-Nt-eZu"/>
+                <constraint firstAttribute="bottom" secondItem="evV-f8-2N4" secondAttribute="bottom" id="s9q-QO-4AA"/>
+                <constraint firstItem="xZC-iW-KPQ" firstAttribute="trailing" secondItem="LuT-Wi-RGR" secondAttribute="trailing" constant="10" id="zRX-Ah-ovW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="xZC-iW-KPQ"/>
+            <point key="canvasLocation" x="-310.14492753623193" y="126.5625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Address Book" width="100" height="59.5"/>
+        <image name="road" width="203" height="192"/>
+    </resources>
+</document>
